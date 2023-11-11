@@ -429,11 +429,22 @@ form textarea {
 }
 
 @media screen and (max-width: 1000px) {
-  body {
+   body {
     flex-direction: column;
-  
   }
-  .home{
+  .home {
+    width: 100%;
+    height: auto;
+    padding-top: 130px;
+    margin-bottom: 150px;
+  }
+  .project {
+    width: 100%;
+    height: auto;
+    padding-top: 130px;
+    margin-bottom: 150px;
+  }
+  .contact {
     width: 100%;
     height: auto;
     padding-top: 130px;
