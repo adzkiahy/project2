@@ -83,7 +83,7 @@ body {
   color: rgb(51, 45, 45);
 }
 .home-content h1 {
-  font-size: 50px;
+  font-size: 56px;
   font-weight: 700;
   margin: -3px 0;
   opacity: 0;
@@ -113,7 +113,7 @@ body {
   animation: slideLeft 1s ease forwards;
   animation-delay: calc(0.2s * var(--i));
   margin: 30px 15px 30px 0;
-  
+
   margin-top: 80px;
 }
 .home-sci a:hover {
@@ -167,14 +167,14 @@ body {
 .about-text h4 {
   font-size: 20px;
   font-weight: 600;
-  color:#e6e3b8;
+  color: #fff;
   line-height: 1.7;
   margin: 15px 0 30px;
   animation: slideLeft 1s ease forwards;
   animation-delay: calc(0.2s * var(--i));
 }
 .about-text p {
-  color: #e6e3b8;
+  color: #ffffff;
   font-size: 20px;
   line-height: 1.4;
   margin-bottom: 4rem;
@@ -337,6 +337,7 @@ form textarea {
   width: 90%;
   padding: 18px;
   background: #e6e3b8;
+  color: black;
   font-size: 1rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
@@ -429,7 +430,7 @@ form textarea {
 }
 
 @media screen and (max-width: 1000px) {
-   body {
+  body {
     flex-direction: column;
   }
   .home {
