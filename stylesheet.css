@@ -167,21 +167,21 @@ body {
 .about-text h4 {
   font-size: 20px;
   font-weight: 600;
-  color: #fff;
+  color:#e6e3b8;
   line-height: 1.7;
   margin: 15px 0 30px;
   animation: slideLeft 1s ease forwards;
   animation-delay: calc(0.2s * var(--i));
 }
 .about-text p {
-  color: #ffffff;
+  color: #e6e3b8;
   font-size: 20px;
   line-height: 1.4;
   margin-bottom: 4rem;
   animation: slideLeft 1s ease forwards;
   animation-delay: calc(0.2s * var(--i));
 }
-#services {
+#project {
   color: #e6e3b8;
   font-size: 20px;
   line-height: 1.4;
